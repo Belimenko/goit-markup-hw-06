@@ -390,27 +390,22 @@ info@devstudio.com
     <li class="list-item-footer">
         <a href="" class="social-list-link-footer">
             <svg aria-label="лого-лінкедін" class="social-list-icon-footer">
-                <use href="./images/sprite.svg#icon-linkedin"> href="./images/sprite.svg#"</use>
+                <use href="./images/sprite.svg#icon-linkedin"></use>
             </svg>
         </a>
     </li>
 </ul>
 </div>
 <div class="third-footer">
-<p class="footer-title">Підпишіться на розсилку</p>
-<form class="footer-form">
-<input type="email"
- class="footer-input"
-  placeholder="E-mail" name="user-email" required />
-    <div class="footer-button-mail">
-   <button class="footer-button" type="submit">
-    Підписатися
+    <p class="footer-title">Підпишіться на розсилку</p>
+    <form class="footer-form">
+        <input type="email" class="footer-input" placeholder="E-mail" name="user-email" required />
+        <button class="footer-button" type="submit">
+            Підписатися
+    </form>
     <svg class="footer-fly-icon" width="24" height="24">
-        <use  href="./images/sprite.svg#icon-icon-send"></use>
+        <use href="./images/sprite.svg#icon-icon-send"></use>
     </svg>
-   </button>
-</div>
-</form>
 </div>
 </div>
 </footer>
@@ -429,8 +424,8 @@ info@devstudio.com
                     <input type="text"
             class="modal-form-input"
             pattern="[a-zA-Za-яА-ЯіІїЇ]+" 
-            name="user-name"/>
-            <svg class="modal-form-input-icon">
+            name="user-name" required />
+            <svg class="modal-form-input-icon"> 
                <use href="./images/sprite.svg#icon-person-black"></use>
             </svg>
                 </span>
@@ -442,7 +437,7 @@ info@devstudio.com
             class="modal-form-input"
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
             title="xxx-xxx-xx-xx"
-            name="user-phone"/>
+            name="user-phone" required />
             <svg class="modal-form-input-icon">
                 <use href="./images/sprite.svg#icon-phone-black"></use>
             </svg>
@@ -453,7 +448,7 @@ info@devstudio.com
             <span class="modal-form-input-wrapper">
             <input type="email"
             class="modal-form-input"
-            name="user-email"/>
+            name="user-email" required />
             <svg class="modal-form-input-icon">
                 <use href="./images/sprite.svg#icon-email-black"></use>
             </svg>
