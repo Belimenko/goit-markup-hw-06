@@ -725,9 +725,7 @@ margin-right: 12px;
 outline: none;
 border-color: var(--accent-color);
 }
-/*.footer-button-mail {
-position: relative;
-}*/
+
 .footer-button {
 display: flex;
 left: 5px;
@@ -745,9 +743,9 @@ justify-content: center;
 align-items: center;
 border: none;
 }
+
 .footer-fly-icon {
 display: flex;
-justify-content: flex-end;
 margin-left: 12px;
 }
 
@@ -859,7 +857,7 @@ color: var(--gray-text-color);
 margin-bottom: 10px;
 }
 .modal-form-field:nth-child(4n) {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .modal-form-check {
     appearance: none;
@@ -868,7 +866,7 @@ margin-bottom: 10px;
 .modal-form-check-field {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .modal-form-message {
     width: 100%;
